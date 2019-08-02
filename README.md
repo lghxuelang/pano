@@ -3,10 +3,14 @@
 
 参数参考：
 
-#panorama：（必选）全景图的路径。
-#container：（必选）放置全景图的容器。
-#autoload：（默认为true）true为自动加载全景图，false为迟点加载全景图（通.过load方法）。
+panorama：（必选）全景图的路径。
+
+container：（必选）放置全景图的容器。
+
+autoload：（默认为true）true为自动加载全景图，false为迟点加载全景图（通.过load方法）。
+
 usexmpdata：（默认值为true）photo sphere viewer是否必须读入xmp数据，false为不必须。
+
 cors_anonymous：（默认值为true）true为不能通过cookies获得用户
 pano_size：（默认值为null）全景图的大小，是否裁切。
 default_position：（默认值为0）定义默认位置，用户看见的第一个点，例如：{long: math.pi, lat: math.pi/2}。
